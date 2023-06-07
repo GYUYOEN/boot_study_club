@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+// ApiLoginFilter에서 인증에 실패한 경우
 @Log4j2
 public class ApiLoginFailHandler implements AuthenticationFailureHandler {
 

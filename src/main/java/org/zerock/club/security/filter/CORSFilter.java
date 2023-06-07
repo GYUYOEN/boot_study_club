@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @Component
-@Order(Ordered.HIGHEST_PRECEDENCE)
+@Order(Ordered.HIGHEST_PRECEDENCE) // 필터 중에서 가장 먼저 동작하도록 함
 public class CORSFilter extends OncePerRequestFilter {
 
     @Override
